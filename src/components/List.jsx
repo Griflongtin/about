@@ -1,35 +1,38 @@
 import React from 'react';
 import People from './People';
 import griffin from './../assets/images/griffin.png';
+import lena from './../assets/images/lena.png';
+import kevin from './../assets/images/kevin.png';
+import holly from './../assets/images/holly.png';
 
 var masterClassList = [
   {
     img: `${griffin}`,
-    name: 'GRIFFIN',
+    name: 'Griffin',
     courseYear: 'React - 2017',
     dinoId: 'Styracosaurus',
     quote: 'Eat Bacon'
   },
   {
-    img: 'https://i.ytimg.com/vi/0pNMRvGnamU/hqdefault.jpg',
-    name: 'you2',
-    courseYear: 'PHP - 2012',
+    img: `${holly}`,
+    name: 'Holly',
+    courseYear: 'React - 2017',
     dinoId: 'T-rex',
-    quote: 'shit'
+    quote: 'No empty <div>s!'
   },
   {
-    img: 'https://i.ytimg.com/vi/0pNMRvGnamU/hqdefault.jpg',
-    name: 'you3',
-    courseYear: 'PHP - 2012',
-    dinoId: 'T-rex',
-    quote: 'shit'
+    img: `${kevin}`,
+    name: 'Kevin',
+    courseYear: 'React - 2017',
+    dinoId: 'Mamenchisaurus',
+    quote: 'That works'
   },
   {
-    img: 'https://i.ytimg.com/vi/0pNMRvGnamU/hqdefault.jpg',
-    name: 'you4',
-    courseYear: 'PHP - 2012',
-    dinoId: 'T-rex',
-    quote: 'shit'
+    img: `${lena}`,
+    name: 'Lena',
+    courseYear: 'React - 2017',
+    dinoId: 'Deinonychus',
+    quote: 'Time for a walk?'
   }
 ];
 

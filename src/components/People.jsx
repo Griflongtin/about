@@ -15,8 +15,10 @@ function People(props) {
             display: flex;
             flex-direction: column;
             align-items: center;
+            flex-wrap: wrap;
             padding: 10px;
             margin: 10px;
+            min-width: 200px;
           }
           .peopleImg {
             border-radius: 100%;
@@ -35,10 +37,11 @@ function People(props) {
       <h4>{props.dinoId}</h4>
       <p>{props.quote}</p>
     </div>
+
   );
 }
 
-People.propType = {
+People.propTypes = {
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   courseYear: PropTypes.string.isRequired,

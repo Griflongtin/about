@@ -43,7 +43,7 @@ function Form () {
         <input type="text" placeholder="Quote"></input>
         <label>Upload your image:</label>
         <input type="file"></input>
-        <button type="submit">Just submit yourself already!</button>
+        <button bsStyle="primary" type="submit">Just submit yourself already!</button>
       </form>
     </div>
   );
